@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "ddf43009357a62d24bd5359156e05227"
+build_time: [557708437, 915894000]
+inputs:
+  "/Users/dharmakshetri/Desktop/IOS Project/messivsronaldo/messivsronaldo/ViewController.swift": [9223372036854775807, 0]
+  "/Users/dharmakshetri/Desktop/IOS Project/messivsronaldo/messivsronaldo/AppDelegate.swift": [9223372036854775807, 0]
