@@ -12,6 +12,8 @@
 		7A0390C31F50E59B0049EA20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0390C11F50E59B0049EA20 /* Main.storyboard */; };
 		7A0390C51F50E59B0049EA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0390C41F50E59B0049EA20 /* Assets.xcassets */; };
 		7A0390C81F50E59B0049EA20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A0390C61F50E59B0049EA20 /* LaunchScreen.storyboard */; };
+		7AB52A1B1F5B65100084737B /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB52A1A1F5B65100084737B /* GoogleMobileAds.framework */; };
+		7AB52A1E1F5B67510084737B /* messi_vs_ronaldo_el_clasico.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7AB52A1D1F5B67510084737B /* messi_vs_ronaldo_el_clasico.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7A0390C41F50E59B0049EA20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A0390C71F50E59B0049EA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A0390C91F50E59B0049EA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB52A1A1F5B65100084737B /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		7AB52A1D1F5B67510084737B /* messi_vs_ronaldo_el_clasico.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = messi_vs_ronaldo_el_clasico.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AB52A1B1F5B65100084737B /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				7A0390BC1F50E59B0049EA20 /* messivsronaldo */,
 				7A0390BB1F50E59B0049EA20 /* Products */,
+				7AB52A191F5B650F0084737B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +66,25 @@
 				7A0390C41F50E59B0049EA20 /* Assets.xcassets */,
 				7A0390C61F50E59B0049EA20 /* LaunchScreen.storyboard */,
 				7A0390C91F50E59B0049EA20 /* Info.plist */,
+				7AB52A1C1F5B67510084737B /* Music */,
 			);
 			path = messivsronaldo;
+			sourceTree = "<group>";
+		};
+		7AB52A191F5B650F0084737B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AB52A1A1F5B65100084737B /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AB52A1C1F5B67510084737B /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				7AB52A1D1F5B67510084737B /* messi_vs_ronaldo_el_clasico.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A0390C81F50E59B0049EA20 /* LaunchScreen.storyboard in Resources */,
+				7AB52A1E1F5B67510084737B /* messi_vs_ronaldo_el_clasico.mp3 in Resources */,
 				7A0390C51F50E59B0049EA20 /* Assets.xcassets in Resources */,
 				7A0390C31F50E59B0049EA20 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +286,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DPR9SN89DL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = messivsronaldo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.prandroid.messivsronaldo;
@@ -275,6 +303,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DPR9SN89DL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = messivsronaldo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.prandroid.messivsronaldo;
@@ -302,6 +334,7 @@
 				7A0390CE1F50E59B0049EA20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
