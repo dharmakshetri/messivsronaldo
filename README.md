@@ -12,5 +12,5 @@ Dharma Kshetri, Android Engineer,
 
 Publshed app on Google play [Prandroid](https://play.google.com/store/apps/dev?id=8471425665700230791) and [Dharma Kshetri](https://play.google.com/store/apps/developer?id=Er.+Dharma+Kshetri)
 
-####### Frequently used tags
+##### Frequently used tags
 #HappyCoding #ILoveKotlin #PrAndroid #CodingWorkSpace #HorrorGoogle #HorrorHouse #APT3004
